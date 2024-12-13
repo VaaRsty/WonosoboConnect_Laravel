@@ -1,0 +1,184 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #24C4B5;
+    padding: 20px;
+    color: white;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+}
+
+footer {
+    background-color: #24C4B5;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Main Section Styles */
+main {
+    padding: 20px;
+}
+
+/* Centering Section */
+section {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centering section content */
+}
+
+section h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    margin-top: 0;
+    line-height: 1.2;
+    text-align: center; /* Ensures the heading is centered */
+}
+/* Centering the h2 Titles */
+h2 {
+    text-align: center; /* Ensure the text is centered */
+    font-size: 2.5em; /* Adjust size of the title */
+    font-weight: bold; /* Make the text bold */
+    color: #333; /* Dark color for the text */
+    margin-bottom: 20px; /* Spacing below the title */
+    margin-top: 0; /* Remove top margin */
+    line-height: 1.2; /* Adjust line height */
+}
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left; /* Keeping form inputs left-aligned */
+}
+
+form input, form select, form textarea, form button {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #24C4B5;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #1aa49f;
+}
+
+form label {
+    font-weight: bold;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #24C4B5;
+    color: white;
+    font-weight: bold;
+}
+
+table td a {
+    text-decoration: none;
+    color: #24C4B5;
+    margin-right: 10px;
+}
+
+table td button {
+    background-color: #FF4F4F;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+table td button:hover {
+    background-color: #FF1C1C;
+}
+
+/* Button Tambah Permohonan */
+.btn-tambah {
+    display: inline-block;
+    background-color: #24C4B5;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.btn-tambah:hover {
+    background-color: #1aa49f;
+}
+
+/* Mobile Responsive for Forms and Tables */
+@media (max-width: 768px) {
+    table, table th, table td {
+        font-size: 0.9em;
+    }
+
+    .btn-tambah {
+        font-size: 1em;
+    }
+
+    form {
+        padding: 10px;
+    }
+
+    form input, form select, form textarea {
+        font-size: 0.9em;
+    }
+
+    form button {
+        font-size: 0.9em;
+    }
+}
